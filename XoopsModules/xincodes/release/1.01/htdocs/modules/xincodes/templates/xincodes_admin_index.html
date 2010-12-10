@@ -1,25 +1,25 @@
-<h1><{$smarty.const._XIN_MF_H1_YOURCODES}></h1>
-<h2><{$youhave}></h2>
-<p><{$smarty.const._XIN_MF_P_YOURCODES}></p>
 <div style='float:right;'><{$pagenav}></div>
 <div style='height:10px clear:both;'>&nbsp;</div>
 <table width='100%'>
 <tr class="head">
-	<td><{$smarty.const._XIN_MF_TD_CODE}></td>
-	<td><{$smarty.const._XIN_MF_TD_EMAIL}></td>
-	<td><{$smarty.const._XIN_MF_TD_CLAIMED}></td>
+	<td><{$smarty.const._XIN_AM_TD_USER}></td>
+	<td><{$smarty.const._XIN_AM_TD_CODE}></td>
+	<td><{$smarty.const._XIN_AM_TD_EMAIL}></td>
+	<td><{$smarty.const._XIN_AM_TD_CLAIMED}></td>
 </tr>
 <{foreach item=code from=$codes}>
 <tr class="<{cycle value='odd,even'}>">
+	<td><{$code.user}></td>
 	<td><{$code.code}></td>
 	<td><{$code.email}></td>
 	<td><{$code.claimed}></td>
 </tr>
 <{/foreach}>
 <tr class="foot">
-	<td><{$smarty.const._XIN_MF_TD_FOOT_CODE}></td>
-	<td><{$smarty.const._XIN_MF_TD_FOOT_EMAIL}></td>
-	<td><{$smarty.const._XIN_MF_TD_FOOT_CLAIMED}></td>
+	<td><{$smarty.const._XIN_AM_TD_FOOT_USER}></td>	
+	<td><{$smarty.const._XIN_AM_TD_FOOT_CODE}></td>
+	<td><{$smarty.const._XIN_AM_TD_FOOT_EMAIL}></td>
+	<td><{$smarty.const._XIN_AM_TD_FOOT_CLAIMED}></td>
 </tr>
 </table>
 <div style='height:10px clear:both;'>&nbsp;</div>

@@ -1,6 +1,7 @@
 <?php
 
 	define('_XIN_CREATECODE', 'Create Invite Code');
+	define('_XIN_ADMINMENU_1', 'User Codes');
 	
 	// Preferences
 	define('_XIN_NUMBEROFCODES', 'Number of Codes');

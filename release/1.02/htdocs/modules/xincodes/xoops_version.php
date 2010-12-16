@@ -31,7 +31,7 @@
 // ------------------------------------------------------------------------- //
 
 $modversion['name'] = 'Invite Codes';
-$modversion['version'] = 1.02;
+$modversion['version'] = 1.01;
 $modversion['description'] = 'Invite codes for Profile 1.61';
 $modversion['author'] = "Wishcraft";
 $modversion['credits'] = "AFS España";

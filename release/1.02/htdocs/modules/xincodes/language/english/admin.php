@@ -1,6 +1,5 @@
 <?php
 
-	define('_XIN_ADMINMENU_1', 'User Codes');
 	
 	// Admin Table
 	define('_XIN_AM_TD_USER', 'User Inviter');

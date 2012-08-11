@@ -1,17 +1,17 @@
 <?php
 
-	define('_XIN_BK_CODE', 'C骴igo de la invitaci髇');
-	define('_XIN_BK_CODE_DESC', '');
+	define('_XIN_BK_CODE','C贸digo de la invitaci贸n');
+	define('_XIN_BK_CODE_DESC','');
 	
-	define('_XIN_BK_EMAIL', 'Email de tu amigo');
-	define('_XIN_BK_EMAIL_DESC', '');
+	define('_XIN_BK_EMAIL','Email de tu amigo');
+	define('_XIN_BK_EMAIL_DESC','');
 	
 	//Options
-	define('_XIN_BK_OPTIONS0', 'Text Box (Chars):&nbsp;');
+	define('_XIN_BK_OPTIONS0','Text Box (Chars):&nbsp;');
 	
 	// Create Code Form
-	define('_XIN_BK_DIV_CREATECODE', '<strong>Crear c骴igo de invitaci髇</strong>');
-	define('_XIN_BK_DIV_FOOT_CREATECODE', '');
-	define('_XIN_BK_FRM_CREATECODE', 'Introduce el email de tu amigo');
+	define('_XIN_BK_DIV_CREATECODE','<strong>Crear c贸digo de invitaci贸n</strong>');
+	define('_XIN_BK_DIV_FOOT_CREATECODE','');
+	define('_XIN_BK_FRM_CREATECODE','Introduce el email de tu amigo');
 	
 ?>
